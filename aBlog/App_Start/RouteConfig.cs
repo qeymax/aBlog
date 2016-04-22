@@ -1,4 +1,6 @@
-﻿using System;
+﻿
+using aBlog.Controllers;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -13,11 +15,15 @@ namespace aBlog
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
-            routes.MapRoute(
-                name: "Default",
-                url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
-            );
+            var namespaces = new[] { typeof(PostsController).Namespace };
+                    
+            //routes.MapRoute(
+            //    name: "Default",
+            //    url: "{controller}/{action}/{id}",
+            //    defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+            //);
+            routes.MapRoute("Home", "", new { Controller = "Posts", Action = "Index" } , namespaces);
+            routes.MapRoute("Login", "login", new { Controller = "Auth", Action = "Login" } , namespaces);
         }
     }
 }

@@ -33,15 +33,9 @@ D:\Muhammad\Documents\Visual Studio 2015\Projects\aBlog\aBlog\bin\EntityFramewor
 D:\Muhammad\Documents\Visual Studio 2015\Projects\aBlog\aBlog\bin\EntityFramework.SqlServer.dll
 D:\Muhammad\Documents\Visual Studio 2015\Projects\aBlog\aBlog\bin\Microsoft.AspNet.Identity.Core.dll
 D:\Muhammad\Documents\Visual Studio 2015\Projects\aBlog\aBlog\bin\Microsoft.AspNet.Identity.EntityFramework.dll
-D:\Muhammad\Documents\Visual Studio 2015\Projects\aBlog\aBlog\bin\Microsoft.AspNet.Identity.Owin.dll
 D:\Muhammad\Documents\Visual Studio 2015\Projects\aBlog\aBlog\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-D:\Muhammad\Documents\Visual Studio 2015\Projects\aBlog\aBlog\bin\Microsoft.Owin.dll
-D:\Muhammad\Documents\Visual Studio 2015\Projects\aBlog\aBlog\bin\Microsoft.Owin.Security.Cookies.dll
-D:\Muhammad\Documents\Visual Studio 2015\Projects\aBlog\aBlog\bin\Microsoft.Owin.Security.dll
-D:\Muhammad\Documents\Visual Studio 2015\Projects\aBlog\aBlog\bin\Microsoft.Owin.Security.OAuth.dll
 D:\Muhammad\Documents\Visual Studio 2015\Projects\aBlog\aBlog\bin\Microsoft.Web.Infrastructure.dll
 D:\Muhammad\Documents\Visual Studio 2015\Projects\aBlog\aBlog\bin\Newtonsoft.Json.dll
-D:\Muhammad\Documents\Visual Studio 2015\Projects\aBlog\aBlog\bin\Owin.dll
 D:\Muhammad\Documents\Visual Studio 2015\Projects\aBlog\aBlog\bin\System.Web.Helpers.dll
 D:\Muhammad\Documents\Visual Studio 2015\Projects\aBlog\aBlog\bin\System.Web.Mvc.dll
 D:\Muhammad\Documents\Visual Studio 2015\Projects\aBlog\aBlog\bin\System.Web.Optimization.dll
@@ -63,11 +57,6 @@ D:\Muhammad\Documents\Visual Studio 2015\Projects\aBlog\aBlog\bin\System.Web.Web
 D:\Muhammad\Documents\Visual Studio 2015\Projects\aBlog\aBlog\bin\EntityFramework.xml
 D:\Muhammad\Documents\Visual Studio 2015\Projects\aBlog\aBlog\bin\EntityFramework.SqlServer.xml
 D:\Muhammad\Documents\Visual Studio 2015\Projects\aBlog\aBlog\bin\Microsoft.AspNet.Identity.Core.xml
-D:\Muhammad\Documents\Visual Studio 2015\Projects\aBlog\aBlog\bin\Microsoft.AspNet.Identity.Owin.xml
 D:\Muhammad\Documents\Visual Studio 2015\Projects\aBlog\aBlog\bin\Microsoft.AspNet.Identity.EntityFramework.xml
-D:\Muhammad\Documents\Visual Studio 2015\Projects\aBlog\aBlog\bin\Microsoft.Owin.xml
-D:\Muhammad\Documents\Visual Studio 2015\Projects\aBlog\aBlog\bin\Microsoft.Owin.Security.xml
-D:\Muhammad\Documents\Visual Studio 2015\Projects\aBlog\aBlog\bin\Microsoft.Owin.Security.Cookies.xml
-D:\Muhammad\Documents\Visual Studio 2015\Projects\aBlog\aBlog\bin\Microsoft.Owin.Security.OAuth.xml
 D:\Muhammad\Documents\Visual Studio 2015\Projects\aBlog\aBlog\obj\Debug\aBlog.dll
 D:\Muhammad\Documents\Visual Studio 2015\Projects\aBlog\aBlog\obj\Debug\aBlog.pdb
