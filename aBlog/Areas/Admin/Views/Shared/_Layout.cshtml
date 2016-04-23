@@ -1,0 +1,36 @@
+﻿
+@using System.Web.Optimization;
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title - aBlog</title>
+    @Styles.Render("~/Admin/Styles")
+</head>
+<body>
+    <div class="container ">
+        <ul class="nav nav-pills">
+            <li class="@(ViewBag.SelectedTab == "posts" ? "active" : "")">
+                @Html.ActionLink("Posts","Index","Posts",new { area = "admin"}, new { })
+            </li>
+            <li class="@(ViewBag.SelectedTab == "users" ? "active" : "")">
+                @Html.ActionLink("Users", "Index", "Users", new { area = "admin" }, new { })
+            </li>
+            <li class="pull-right">
+                @Html.RouteLink("Back To Website", "Home")
+            </li>
+
+        </ul>
+
+
+        <br />
+        <br />
+        <br />
+        @RenderBody()
+    </div>
+    @Scripts.Render("~/Admin/Scripts")
+    @RenderSection("Scripts",false)
+</body>
+</html>
