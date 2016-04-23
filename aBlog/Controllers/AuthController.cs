@@ -1,4 +1,5 @@
-﻿using System;
+﻿using aBlog.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -11,8 +12,16 @@ namespace aBlog.Controllers
         // GET: Auth
         public ActionResult Login()
         {
-            return View();
+            return View(new AuthLogin { });
         }
-        
+        [HttpPost]
+        public ActionResult Login(AuthLogin form)
+        {
+            if (!ModelState.IsValid)
+                return View();
+            return Content("Login Successfull");
+        }
+
+
     }
 }
