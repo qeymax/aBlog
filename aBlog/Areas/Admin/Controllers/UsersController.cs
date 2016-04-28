@@ -1,4 +1,6 @@
-﻿using aBlog.Infrastructure;
+﻿using aBlog.Areas.Admin.ViewModels;
+using aBlog.Infrastructure;
+using aBlog.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,7 +15,9 @@ namespace aBlog.Areas.Admin.Controllers
     {
         public ActionResult Index()
         {
-            return View();
+
+ 
+                return View(new UserContext());
         }
     }
 }

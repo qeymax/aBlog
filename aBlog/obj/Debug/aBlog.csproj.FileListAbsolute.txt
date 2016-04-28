@@ -60,3 +60,8 @@ D:\Muhammad\Documents\Visual Studio 2015\Projects\aBlog\aBlog\bin\Microsoft.AspN
 D:\Muhammad\Documents\Visual Studio 2015\Projects\aBlog\aBlog\bin\Microsoft.AspNet.Identity.EntityFramework.xml
 D:\Muhammad\Documents\Visual Studio 2015\Projects\aBlog\aBlog\obj\Debug\aBlog.dll
 D:\Muhammad\Documents\Visual Studio 2015\Projects\aBlog\aBlog\obj\Debug\aBlog.pdb
+D:\Muhammad\Documents\Visual Studio 2015\Projects\aBlog\aBlog\bin\Iesi.Collections.dll
+D:\Muhammad\Documents\Visual Studio 2015\Projects\aBlog\aBlog\bin\Iesi.Collections.xml
+D:\Muhammad\Documents\Visual Studio 2015\Projects\aBlog\aBlog\bin\Glimpse.AspNet.dll
+D:\Muhammad\Documents\Visual Studio 2015\Projects\aBlog\aBlog\bin\Glimpse.Core.dll
+D:\Muhammad\Documents\Visual Studio 2015\Projects\aBlog\aBlog\bin\Glimpse.Mvc5.dll

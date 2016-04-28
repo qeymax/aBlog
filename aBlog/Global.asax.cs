@@ -6,7 +6,6 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
-
 namespace aBlog
 {
     public class MvcApplication : System.Web.HttpApplication
@@ -17,6 +16,14 @@ namespace aBlog
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+
+        }
+        protected void Application_BeginRequest()
+        {
+
+        }
+        protected void Application_EndRequest()
+        {
 
         }
     }

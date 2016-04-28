@@ -1,1 +1,10 @@
-﻿<h1>Users</h1>
+﻿@model aBlog.Areas.Admin.ViewModels.UserContext
+
+<h1>Users</h1>
+
+<ul>
+    @foreach (var user in Model.Users.ToList())
+    { 
+        <li>@user.Username  @user.Email </li>
+    }
+</ul>
