@@ -18,7 +18,6 @@ namespace aBlog.Areas.Admin.Controllers
         public ActionResult Index()
         {
 
-
             return View(new UsersIndex()
             {
                 Users = userContext.Users.ToList(),
@@ -26,6 +25,9 @@ namespace aBlog.Areas.Admin.Controllers
                 Roles_Users = userContext.Roles_Users.ToList()
              });
         }
+
+
+
         public ActionResult New()
         {
             return View(new UsersNew());
@@ -44,10 +46,11 @@ namespace aBlog.Areas.Admin.Controllers
             {
                 Email = form.Email,
                 Username = form.Username,
-                PasswordHash = form.Password
+                
             };
-                userContext.Users.Add(user);
-                userContext.SaveChanges();
+            user.SetPassword(form.Password);
+            userContext.Users.Add(user);
+            userContext.SaveChanges();
             return RedirectToAction("Index");
         }
 
@@ -110,7 +113,7 @@ namespace aBlog.Areas.Admin.Controllers
             if (!ModelState.IsValid)
                 return View(form);
 
-            user.PasswordHash = form.Password;
+            user.SetPassword(form.Password);
             userContext.SaveChanges();
 
             return RedirectToAction("Index");

@@ -65,3 +65,5 @@ D:\Muhammad\Documents\Visual Studio 2015\Projects\aBlog\aBlog\bin\Iesi.Collectio
 D:\Muhammad\Documents\Visual Studio 2015\Projects\aBlog\aBlog\bin\Glimpse.AspNet.dll
 D:\Muhammad\Documents\Visual Studio 2015\Projects\aBlog\aBlog\bin\Glimpse.Core.dll
 D:\Muhammad\Documents\Visual Studio 2015\Projects\aBlog\aBlog\bin\Glimpse.Mvc5.dll
+D:\Muhammad\Documents\Visual Studio 2015\Projects\aBlog\aBlog\bin\BCrypt.Net.dll
+D:\Muhammad\Documents\Visual Studio 2015\Projects\aBlog\aBlog\bin\BCrypt.Net.xml

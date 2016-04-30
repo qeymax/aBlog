@@ -10,7 +10,7 @@ namespace aBlog.Infrastructure
 
         public override string[] GetRolesForUser(string username)
         {
-            if(username == "Me")
+            if(username == "qeymax")
                 return new[] { "admin" };
             return new string[] { };
         }

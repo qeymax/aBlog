@@ -10,6 +10,7 @@ namespace aBlog.Controllers
 {
     public class AuthController : Controller
     {
+        UsersContext userContext = new UsersContext();
         // GET: Auth
         public ActionResult Login()
         {
@@ -18,6 +19,13 @@ namespace aBlog.Controllers
         [HttpPost]
         public ActionResult Login(AuthLogin form , string ReturnUrl)
         {
+            var user = userContext.Users.FirstOrDefault(u => u.Username == form.username);
+            if (user == null)
+                aBlog.Models.User.FakeHash();
+   
+            if (user == null || !user.CheckPassword(form.password))
+                ModelState.AddModelError("Username", "Username or Password is incorrect!");
+
             if (!ModelState.IsValid)
                 return View(form);
 
