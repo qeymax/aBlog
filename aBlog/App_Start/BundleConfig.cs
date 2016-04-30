@@ -23,7 +23,8 @@ namespace aBlog.App_Start
                 .Include("~/Scripts/jquery-2.2.3.js")
                 .Include("~/Scripts/jquery.validate.js")
                 .Include("~/Scripts/jquery.validate.unobtrusive.js")
-                .Include("~/Scripts/bootstrap.js"));
+                .Include("~/Scripts/bootstrap.js")
+                .Include("~/Areas/Admin/Scripts/Forms.js"));
 
             bundles.Add(new ScriptBundle("~/Scripts")
                 .Include("~/Scripts/jquery-2.2.3.js")
